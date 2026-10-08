@@ -1,0 +1,161 @@
+[08-Oct-2026 11:51:37 Africa/Lagos] DB connection failed: SQLSTATE[HY000] [1049] Unknown database 'peacewatch'
+[08-Oct-2026 11:58:24 Africa/Lagos] DB connection failed: SQLSTATE[HY000] [2019] Unknown character set
+[08-Oct-2026 11:59:18 Africa/Lagos] DB connection failed: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+[08-Oct-2026 11:59:48 Africa/Lagos] DB connection failed: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+[08-Oct-2026 12:00:56 Africa/Lagos] DB connection failed: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+[08-Oct-2026 14:21:48 Africa/Lagos] DB connection failed: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+[08-Oct-2026 14:23:34 Africa/Lagos] DB connection failed: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+[08-Oct-2026 14:32:30 Africa/Lagos] DB connection failed: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+[08-Oct-2026 14:55:52 Africa/Lagos] PHP Warning:  require(../config/database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:55:52 Africa/Lagos] PHP Fatal error:  Uncaught Error: Failed opening required '../config/database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\peacewatch\includes\db.php:11
+Stack trace:
+#0 C:\xampp\htdocs\peacewatch\includes\auth.php(8): db()
+#1 C:\xampp\htdocs\peacewatch\includes\auth.php(47): current_user()
+#2 C:\xampp\htdocs\peacewatch\includes\auth.php(67): require_login()
+#3 C:\xampp\htdocs\peacewatch\public\admin\dashboard.php(3): require_admin()
+#4 {main}
+  thrown in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:56:03 Africa/Lagos] PHP Warning:  require(../config/database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:56:03 Africa/Lagos] PHP Fatal error:  Uncaught Error: Failed opening required '../config/database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\peacewatch\includes\db.php:11
+Stack trace:
+#0 C:\xampp\htdocs\peacewatch\includes\auth.php(8): db()
+#1 C:\xampp\htdocs\peacewatch\includes\auth.php(47): current_user()
+#2 C:\xampp\htdocs\peacewatch\includes\auth.php(67): require_login()
+#3 C:\xampp\htdocs\peacewatch\public\admin\dashboard.php(3): require_admin()
+#4 {main}
+  thrown in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:56:14 Africa/Lagos] PHP Warning:  require(../config/database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:56:14 Africa/Lagos] PHP Fatal error:  Uncaught Error: Failed opening required '../config/database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\peacewatch\includes\db.php:11
+Stack trace:
+#0 C:\xampp\htdocs\peacewatch\includes\auth.php(8): db()
+#1 C:\xampp\htdocs\peacewatch\includes\auth.php(47): current_user()
+#2 C:\xampp\htdocs\peacewatch\includes\auth.php(67): require_login()
+#3 C:\xampp\htdocs\peacewatch\public\admin\dashboard.php(3): require_admin()
+#4 {main}
+  thrown in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:56:18 Africa/Lagos] PHP Warning:  require(../config/database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:56:18 Africa/Lagos] PHP Fatal error:  Uncaught Error: Failed opening required '../config/database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\peacewatch\includes\db.php:11
+Stack trace:
+#0 C:\xampp\htdocs\peacewatch\includes\auth.php(8): db()
+#1 C:\xampp\htdocs\peacewatch\includes\auth.php(47): current_user()
+#2 C:\xampp\htdocs\peacewatch\includes\auth.php(67): require_login()
+#3 C:\xampp\htdocs\peacewatch\public\admin\dashboard.php(3): require_admin()
+#4 {main}
+  thrown in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:56:19 Africa/Lagos] PHP Warning:  require(../config/database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:56:19 Africa/Lagos] PHP Fatal error:  Uncaught Error: Failed opening required '../config/database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\peacewatch\includes\db.php:11
+Stack trace:
+#0 C:\xampp\htdocs\peacewatch\includes\auth.php(8): db()
+#1 C:\xampp\htdocs\peacewatch\includes\auth.php(47): current_user()
+#2 C:\xampp\htdocs\peacewatch\includes\auth.php(67): require_login()
+#3 C:\xampp\htdocs\peacewatch\public\admin\dashboard.php(3): require_admin()
+#4 {main}
+  thrown in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:56:31 Africa/Lagos] PHP Warning:  require(../config/database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:56:31 Africa/Lagos] PHP Fatal error:  Uncaught Error: Failed opening required '../config/database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\peacewatch\includes\db.php:11
+Stack trace:
+#0 C:\xampp\htdocs\peacewatch\includes\auth.php(8): db()
+#1 C:\xampp\htdocs\peacewatch\includes\auth.php(47): current_user()
+#2 C:\xampp\htdocs\peacewatch\includes\auth.php(67): require_login()
+#3 C:\xampp\htdocs\peacewatch\public\admin\dashboard.php(3): require_admin()
+#4 {main}
+  thrown in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:56:34 Africa/Lagos] PHP Warning:  require(../config/database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:56:34 Africa/Lagos] PHP Fatal error:  Uncaught Error: Failed opening required '../config/database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\peacewatch\includes\db.php:11
+Stack trace:
+#0 C:\xampp\htdocs\peacewatch\includes\auth.php(8): db()
+#1 C:\xampp\htdocs\peacewatch\includes\auth.php(47): current_user()
+#2 C:\xampp\htdocs\peacewatch\includes\auth.php(67): require_login()
+#3 C:\xampp\htdocs\peacewatch\public\admin\dashboard.php(3): require_admin()
+#4 {main}
+  thrown in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:56:34 Africa/Lagos] PHP Warning:  require(../config/database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:56:34 Africa/Lagos] PHP Fatal error:  Uncaught Error: Failed opening required '../config/database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\peacewatch\includes\db.php:11
+Stack trace:
+#0 C:\xampp\htdocs\peacewatch\includes\auth.php(8): db()
+#1 C:\xampp\htdocs\peacewatch\includes\auth.php(47): current_user()
+#2 C:\xampp\htdocs\peacewatch\includes\auth.php(67): require_login()
+#3 C:\xampp\htdocs\peacewatch\public\admin\dashboard.php(3): require_admin()
+#4 {main}
+  thrown in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:56:35 Africa/Lagos] PHP Warning:  require(../config/database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:56:35 Africa/Lagos] PHP Fatal error:  Uncaught Error: Failed opening required '../config/database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\peacewatch\includes\db.php:11
+Stack trace:
+#0 C:\xampp\htdocs\peacewatch\includes\auth.php(8): db()
+#1 C:\xampp\htdocs\peacewatch\includes\auth.php(47): current_user()
+#2 C:\xampp\htdocs\peacewatch\includes\auth.php(67): require_login()
+#3 C:\xampp\htdocs\peacewatch\public\admin\dashboard.php(3): require_admin()
+#4 {main}
+  thrown in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:56:36 Africa/Lagos] PHP Warning:  require(../config/database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:56:36 Africa/Lagos] PHP Fatal error:  Uncaught Error: Failed opening required '../config/database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\peacewatch\includes\db.php:11
+Stack trace:
+#0 C:\xampp\htdocs\peacewatch\includes\auth.php(8): db()
+#1 C:\xampp\htdocs\peacewatch\includes\auth.php(47): current_user()
+#2 C:\xampp\htdocs\peacewatch\includes\auth.php(67): require_login()
+#3 C:\xampp\htdocs\peacewatch\public\admin\dashboard.php(3): require_admin()
+#4 {main}
+  thrown in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:56:41 Africa/Lagos] PHP Warning:  require(../config/database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:56:41 Africa/Lagos] PHP Fatal error:  Uncaught Error: Failed opening required '../config/database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\peacewatch\includes\db.php:11
+Stack trace:
+#0 C:\xampp\htdocs\peacewatch\includes\auth.php(8): db()
+#1 C:\xampp\htdocs\peacewatch\includes\auth.php(47): current_user()
+#2 C:\xampp\htdocs\peacewatch\includes\auth.php(67): require_login()
+#3 C:\xampp\htdocs\peacewatch\public\admin\dashboard.php(3): require_admin()
+#4 {main}
+  thrown in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:57:00 Africa/Lagos] PHP Warning:  require(../config/database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:57:00 Africa/Lagos] PHP Fatal error:  Uncaught Error: Failed opening required '../config/database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\peacewatch\includes\db.php:11
+Stack trace:
+#0 C:\xampp\htdocs\peacewatch\includes\auth.php(8): db()
+#1 C:\xampp\htdocs\peacewatch\includes\auth.php(47): current_user()
+#2 C:\xampp\htdocs\peacewatch\includes\auth.php(67): require_login()
+#3 C:\xampp\htdocs\peacewatch\public\admin\dashboard.php(3): require_admin()
+#4 {main}
+  thrown in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:59:04 Africa/Lagos] PHP Warning:  require(../config/database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:59:04 Africa/Lagos] PHP Fatal error:  Uncaught Error: Failed opening required '../config/database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\peacewatch\includes\db.php:11
+Stack trace:
+#0 C:\xampp\htdocs\peacewatch\includes\auth.php(8): db()
+#1 C:\xampp\htdocs\peacewatch\includes\auth.php(47): current_user()
+#2 C:\xampp\htdocs\peacewatch\includes\auth.php(67): require_login()
+#3 C:\xampp\htdocs\peacewatch\public\admin\dashboard.php(3): require_admin()
+#4 {main}
+  thrown in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:59:12 Africa/Lagos] PHP Warning:  require(../config/database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:59:12 Africa/Lagos] PHP Fatal error:  Uncaught Error: Failed opening required '../config/database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\peacewatch\includes\db.php:11
+Stack trace:
+#0 C:\xampp\htdocs\peacewatch\includes\auth.php(8): db()
+#1 C:\xampp\htdocs\peacewatch\includes\auth.php(47): current_user()
+#2 C:\xampp\htdocs\peacewatch\includes\auth.php(67): require_login()
+#3 C:\xampp\htdocs\peacewatch\public\admin\dashboard.php(3): require_admin()
+#4 {main}
+  thrown in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:59:41 Africa/Lagos] PHP Warning:  require(../config/database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:59:41 Africa/Lagos] PHP Fatal error:  Uncaught Error: Failed opening required '../config/database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\peacewatch\includes\db.php:11
+Stack trace:
+#0 C:\xampp\htdocs\peacewatch\includes\auth.php(8): db()
+#1 C:\xampp\htdocs\peacewatch\includes\auth.php(47): current_user()
+#2 C:\xampp\htdocs\peacewatch\includes\auth.php(67): require_login()
+#3 C:\xampp\htdocs\peacewatch\public\admin\dashboard.php(3): require_admin()
+#4 {main}
+  thrown in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:59:45 Africa/Lagos] PHP Warning:  require(../config/database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:59:45 Africa/Lagos] PHP Fatal error:  Uncaught Error: Failed opening required '../config/database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\peacewatch\includes\db.php:11
+Stack trace:
+#0 C:\xampp\htdocs\peacewatch\includes\auth.php(8): db()
+#1 C:\xampp\htdocs\peacewatch\includes\auth.php(47): current_user()
+#2 C:\xampp\htdocs\peacewatch\includes\auth.php(67): require_login()
+#3 C:\xampp\htdocs\peacewatch\public\admin\dashboard.php(3): require_admin()
+#4 {main}
+  thrown in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:59:46 Africa/Lagos] PHP Warning:  require(../config/database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\peacewatch\includes\db.php on line 11
+[08-Oct-2026 14:59:46 Africa/Lagos] PHP Fatal error:  Uncaught Error: Failed opening required '../config/database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\peacewatch\includes\db.php:11
+Stack trace:
+#0 C:\xampp\htdocs\peacewatch\includes\auth.php(8): db()
+#1 C:\xampp\htdocs\peacewatch\includes\auth.php(47): current_user()
+#2 C:\xampp\htdocs\peacewatch\includes\auth.php(67): require_login()
+#3 C:\xampp\htdocs\peacewatch\public\admin\dashboard.php(3): require_admin()
+#4 {main}
+  thrown in C:\xampp\htdocs\peacewatch\includes\db.php on line 11

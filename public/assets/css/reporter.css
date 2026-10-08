@@ -1,0 +1,65 @@
+/* PeaceWatch - reporter and sign-in pages */
+
+/* ---- auth ---- */
+body.auth .wrap { max-width: 440px; padding-top: 1.5rem; }
+.auth-card { background: #fff; border-radius: 16px; padding: 1.4rem 1.3rem; box-shadow: var(--shadow); }
+.auth-card.wide { max-width: 520px; }
+body.auth .auth-card.wide { margin: 0 auto; }
+
+/* ---- the REPORT button ---- */
+.report-zone { text-align: center; padding: 1rem 0 .5rem; }
+.report-btn {
+  position: relative; display: inline-flex; flex-direction: column; align-items: center; justify-content: center; gap: .35rem;
+  width: min(17rem, 78vw); height: min(17rem, 78vw); border-radius: 50%;
+  border: 0; cursor: pointer; color: #fff; font-family: var(--sans);
+  background: radial-gradient(circle at 35% 28%, #e8243f 0%, #c8102e 55%, #9c0a22 100%);
+  box-shadow: 0 10px 30px rgba(200,16,46,.45), inset 0 -8px 18px rgba(0,0,0,.2);
+  animation: ring 2.4s ease-out infinite;
+  -webkit-tap-highlight-color: transparent;
+}
+.report-btn-label { font-size: clamp(2.2rem, 11vw, 3.1rem); font-weight: 800; letter-spacing: .05em; }
+.report-btn-sub { font-size: .92rem; opacity: .92; max-width: 11rem; line-height: 1.25; }
+.report-btn:active { transform: scale(.97); }
+.report-btn:focus-visible { outline: 5px solid #ffb703; outline-offset: 5px; }
+.report-btn.is-sending { animation: none; background: radial-gradient(circle at 35% 28%, #b8606d, #8e2236); cursor: wait; }
+.report-btn:disabled:not(.is-sending) { background: #9aa6a3; box-shadow: none; animation: none; cursor: not-allowed; }
+@keyframes ring {
+  0%   { box-shadow: 0 10px 30px rgba(200,16,46,.45), 0 0 0 0 rgba(200,16,46,.45), inset 0 -8px 18px rgba(0,0,0,.2); }
+  70%  { box-shadow: 0 10px 30px rgba(200,16,46,.45), 0 0 0 34px rgba(200,16,46,0), inset 0 -8px 18px rgba(0,0,0,.2); }
+  100% { box-shadow: 0 10px 30px rgba(200,16,46,.45), 0 0 0 0 rgba(200,16,46,0), inset 0 -8px 18px rgba(0,0,0,.2); }
+}
+.gps-status { margin: 1rem auto 0; max-width: 24rem; color: var(--muted); font-size: .98rem; min-height: 1.5em; }
+
+/* ---- report cards ---- */
+#active { margin-top: 1.5rem; }
+.report-card { border-left: 6px solid var(--line); }
+.sev-border-critical { border-left-color: var(--red); }
+.sev-border-medium { border-left-color: var(--orange); }
+.sev-border-low { border-left-color: var(--green); }
+.report-card.is-closed { opacity: .92; }
+.card-head { display: flex; justify-content: space-between; align-items: flex-start; gap: .5rem; margin-bottom: .4rem; }
+.card-head h3 { margin: 0; }
+.loc { font-size: .92rem; padding: .3rem .6rem; border-radius: 6px; display: inline-block; margin-bottom: .4rem; }
+.loc.ok { background: #e4f3f1; color: #0a4e47; }
+.loc.warn { background: #fff0d4; color: #7b4a00; }
+
+.sev-pick { display: flex; flex-wrap: wrap; gap: .5rem; padding: .5rem .7rem .7rem; }
+.sev-opt { flex: 1 1 6rem; margin: 0; cursor: pointer; }
+.sev-opt input { position: absolute; opacity: 0; pointer-events: none; }
+.sev-opt span { display: block; text-align: center; padding: .65rem .4rem; border-radius: 9px; border: 2px solid var(--line); background: #fff; }
+.sev-opt input:focus-visible + span { outline: 3px solid rgba(15,107,98,.4); }
+.sev-opt-critical input:checked + span { background: var(--red); border-color: var(--red); color: #fff; }
+.sev-opt-medium input:checked + span { background: #ffd48a; border-color: var(--orange); color: #5b3700; }
+.sev-opt-low input:checked + span { background: #bfe8cc; border-color: var(--green); color: #14502a; }
+
+/* ---- history + alerts ---- */
+.hist { padding: 0; }
+.hist > summary { list-style: none; cursor: pointer; padding: .9rem 1rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: .4rem; align-items: center; }
+.hist > summary::-webkit-details-marker { display: none; }
+.hist-title { font-weight: 700; }
+.hist-body { padding: 0 1rem 1rem; border-top: 1px solid var(--line); }
+.notif-list { list-style: none; margin: 0; padding: 0; }
+.notif-list li { background: #fff; border-radius: 10px; margin-bottom: .5rem; box-shadow: var(--shadow); }
+.notif-list li.unread { border-left: 5px solid var(--red); }
+.notif-list a { display: block; padding: .75rem .9rem; color: var(--ink); text-decoration: none; }
+.notif-list small { display: block; color: var(--muted); }
